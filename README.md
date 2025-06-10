@@ -255,7 +255,7 @@ jobs:
 ## 📄 License
 
 This project is licensed under the [Apache License 2.0](LICENSE).  
-The included `sample-project/` folder is based on the original IBM Labs repository [wtecc-CICD_PracticeCode](https://github.com/IBMDeveloperSkillsNetwork/wtecc-CICD_PracticeCode), which is also licensed under Apache 2.0.
+The included `sample-project/` folder is based on the original IBM Labs repository [wtecc-CICD_PracticeCode](https://github.com/ibm-developer-skills-network/wtecc-CICD_PracticeCode), which is also licensed under Apache 2.0.
 
 ---
 
