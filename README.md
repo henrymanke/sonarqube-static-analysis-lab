@@ -61,8 +61,8 @@ You are now ready to use SonarQube. You can launch the web UI by opening `http:/
 
 2. Then click the [Log in] button. Once you have logged in, you will be prompted to change your password.
 
-    > [!NOTE]
-    > Don’t forget to save your new password!
+> [!NOTE]
+> Don’t forget to save your new password!
 
 3. Once you have finished resetting the password, you will be directed to the home page of SonarQube.
 
@@ -71,6 +71,7 @@ You are now ready to use SonarQube. You can launch the web UI by opening `http:/
 To run the SonarQube scanner on your code, you will first need to create a project token. There are many ways to create a token, but for this lab you will use the manual setup.
 
 1. Click on the `Create a local project` button on the bottom left.
+
     ![SonarQube Dashboard](./images/analysis_sonarqube_homepage.png "SonarQube Dashboard")
 
 2. On the next page, create a project by following these steps:
@@ -80,7 +81,7 @@ To run the SonarQube scanner on your code, you will first need to create a proje
     3. Ensure the main branch is selected
     4. Press the Next button to continue.
 
-    ![Create SonarQube Project](./images/analysis_create_project.png "Create SonarQube Project")
+![Create SonarQube Project](./images/analysis_create_project.png "Create SonarQube Project")
 
 > [!NOTE]
 > If you get an error message, try again.
