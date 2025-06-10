@@ -70,7 +70,7 @@ You are now ready to use SonarQube. You can launch the web UI by opening `http:/
 
 To run the SonarQube scanner on your code, you will first need to create a project token. There are many ways to create a token, but for this lab you will use the manual setup.
 
-1. Click on the 'Create a local project' button on the bottom left.
+1. Click on the `Create a local project` button on the bottom left.
     ![SonarQube Dashboard](./images/analysis_sonarqube_homepage.png "SonarQube Dashboard")
 
 2. On the next page, create a project by following these steps:
@@ -82,8 +82,8 @@ To run the SonarQube scanner on your code, you will first need to create a proje
 
     ![Create SonarQube Project](./images/analysis_create_project.png "Create SonarQube Project")
 
-    > [!NOTE]
-    > If you get an error message, try again.
+> [!NOTE]
+> If you get an error message, try again.
 
 3. Please select `Use the global setting` and then click on `Create project`.
 
@@ -102,10 +102,12 @@ Before you can scan your code, you will need to generate a token. You can genera
     ![Generate Token](./images/analysis_generate_token.png "Generate Token")
 
 2. Next, you will see the token that has been generated.
-    > [!NOTE]
-    > Copy it, and then paste it in a safe place. You will need it later to submit your scans.
+
+> [!NOTE]
+> Copy it, and then paste it in a safe place. You will need it later to submit your scans.
 
 3. Click the Continue button.
+
     ![Generated Token](./images/analysis_token_generated.png "Generated Token")
 
 4. OS Configuration
@@ -115,11 +117,11 @@ Before you can scan your code, you will need to generate a token. You can genera
     2. Linux
     3. Copy
 
-    > [!IMPORTANT]  
-    > You don’t need to copy the generated snippet, since we are using a custom Docker setup.
-    > Keep it for reference or use it in production environments.
+> [!IMPORTANT]
+> You don’t need to copy the generated snippet, since we are using a custom Docker setup.
+> Keep it for reference or use it in production environments.
 
-    ![Select OS](./images/analysis_select_language.png "Select OS")
+![Select OS](./images/analysis_select_language.png "Select OS")
 
 It's important to understand that the SonarQube server (which stores and displays the results) and the scanner (which performs the code analysis) are two separate components.
 
@@ -143,8 +145,8 @@ To get the SonarQube scanner to work in the Cloud IDE, you can either install it
     alias sonar-scanner='docker run --rm -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli'
     ```
 
-    > [!NOTE]
-    > This command is mounting the current working directory as a volume at /usr/src inside the container, which is where sonar-scanner is looking for the source code. You can set this up on your own computer as well.
+> [!NOTE]
+> This command is mounting the current working directory as a volume at /usr/src inside the container, which is where sonar-scanner is looking for the source code. You can set this up on your own computer as well.
 
 Any arguments that you pass into the sonar-scanner command will be passed into the container version as well. This is how you can easily run commands in Docker containers as if they were actually installed on your computer.
 
